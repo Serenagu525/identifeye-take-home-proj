@@ -111,8 +111,8 @@ func displaySummary() -> String {
 }
 
 
-//running for individual txt file path, use path relative to build products
-print(aggregateData(from: "../../../../../../../../Desktop/swift/identifeye-proj/example-input.txt"))
+//running for individual txt file path
+print(aggregateData(from: "../example-input.txt"))
 //tests
 print(my_tests())
 

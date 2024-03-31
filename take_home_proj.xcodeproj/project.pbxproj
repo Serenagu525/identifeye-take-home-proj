@@ -24,10 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F77BB1E02BB2465500CC5BA6 /* example-input.txt */ = {isa = PBXFileReference; explicitFileType = text; name = "example-input.txt"; path = "../../../../../../../../Desktop/swift/identifeye-proj/example-input.txt"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77BB1E02BB2465500CC5BA6 /* example-input.txt */ = {isa = PBXFileReference; explicitFileType = text; name = "example-input.txt"; path = "../example-input.txt"; sourceTree = "<group>"; };
 		F7CDAA792BBA001F00E61DA0 /* custom-tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "custom-tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7CDAA802BBA00CC00E61DA0 /* basic-tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "basic-tests.swift"; sourceTree = "<group>"; };
-		F7CDAA822BBA09FD00E61DA0 /* edge-cases.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = "edge-cases.txt"; path = "../../../../../../../../Desktop/swift/identifeye-proj/client-exam-project/edge-cases.txt"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7CDAA822BBA09FD00E61DA0 /* edge-cases.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = "edge-cases.txt"; path = "../../../../../../../../../Users/yuxuangu/Desktop/swift/identifeye-proj/client-exam-project/edge-cases.txt"; sourceTree = SDKROOT; };
 		F7CDAA832BBA0B6400E61DA0 /* extensive-test.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "extensive-test.txt"; sourceTree = "<group>"; };
 		F7E1BACD2BB243F0008AF8DD /* client-exam-project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "client-exam-project"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E1BAD02BB243F0008AF8DD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };

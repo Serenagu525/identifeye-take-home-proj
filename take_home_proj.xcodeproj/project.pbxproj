@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F77BB1E02BB2465500CC5BA6 /* example-input.txt */ = {isa = PBXFileReference; explicitFileType = text; name = "example-input.txt"; path = "../example-input.txt"; sourceTree = "<group>"; };
 		F7E1BACD2BB243F0008AF8DD /* client-exam-project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "client-exam-project"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E1BAD02BB243F0008AF8DD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				F7E1BAD02BB243F0008AF8DD /* main.swift */,
+				F77BB1E02BB2465500CC5BA6 /* example-input.txt */,
 			);
 			path = "client-exam-project";
 			sourceTree = "<group>";

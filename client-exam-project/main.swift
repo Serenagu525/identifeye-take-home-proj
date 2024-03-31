@@ -24,7 +24,7 @@ var exams = [String: String]()
 var orderedPatients = [String]()  //used to maintain insertion order
 
 
-func aggregateData(from filename: String) {
+func aggregateData(from filename: String) -> String{
     do {
         let contents = try String(contentsOfFile: filename)
         let lines = contents.split(separator:"\n")
@@ -42,15 +42,15 @@ func aggregateData(from filename: String) {
                 if components[0] == "ADD" {
                     addExam(inst: components)
                 } else if components[0] == "DEL" {
-                    deletePatient(inst: components)
+                    deleteExam(inst: components)
                 }
             default:
                 break
             }
         }
-        displaySummary()
+        return displaySummary()
     } catch {
-        print("Error reading file: \(error)")
+        return String("Error reading file: \(error)")
     }
     
 }
@@ -100,14 +100,23 @@ func deletePatient(inst: [String]) {
     orderedPatients.removeAll {$0 == patientIdentifier}
 }
 
-func displaySummary() {
+func displaySummary() -> String {
+    var result = ""
     for id in orderedPatients {
         if let patientInfo = patients[id] {
-            print("Name: \(patientInfo.name), Id: \(id), Exam Count: \(patientInfo.numExam)")
+            result += String("Name: \(patientInfo.name), Id: \(id), Exam Count: \(patientInfo.numExam)" + "\n")
         }
     }
+    return result
 }
-let filename = "/Users/yuxuangu/Desktop/swift/identifeye HEALTH take home proj/example-input.txt"
-aggregateData(from: filename)
+
+
+//running for individual txt file path, use path relative to build products
+print(aggregateData(from: "../../../../../../../../Desktop/swift/identifeye-proj/example-input.txt"))
+//tests
+print(my_tests())
+
+
+
 
 

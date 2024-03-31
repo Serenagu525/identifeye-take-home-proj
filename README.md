@@ -1,0 +1,2 @@
+1. To aggregate data for individual txt file, run aggregateData(from: filepath) where filepath is the input file path relative to build products. This function will return a string as the summary.
+2. To run basic functionality tests I implemented, run my_tests(). True will be returned if all three tests passed. Tests are implemented for the example input given in pdf, all edge cases specified in pdf, and a more extensive test covering cases like longer names and multiple deletes.
